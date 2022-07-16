@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     @IBAction func carControlls(_ sender: UIButton) {
         switch sender.tag {
         case 0:
-            car.addFuel()
+            car.playCD()
         case 1:
             car.accelerate()
         case 2:
